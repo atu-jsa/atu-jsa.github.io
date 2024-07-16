@@ -1,0 +1,24 @@
+@media only screen and (max-width: 431px) {
+  /* CSS rules for mobile devices */
+  /* header */
+
+  /* main */
+  main {
+    padding: 0.3em 5px;
+  }
+
+  /* footer */
+  footer {
+    padding: 0.1em 0;
+    background-color: rgb(245, 96, 96);
+    text-align: center;
+    color: aliceblue;
+    font-size: 14px;
+  }
+  footer a {
+    color: aliceblue;
+  }
+  footer p {
+    margin: 1em 0;
+  }
+}
