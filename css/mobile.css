@@ -1,7 +1,50 @@
 @media only screen and (max-width: 431px) {
   /* CSS rules for mobile devices */
   /* header */
+  header {
+    padding: 0.5em 0;
+    text-align: center;
+  }
+  #hamburger {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  #mobile-nav {
+    display: none;
+  }
+  /* Hamburger styling */
+  #hamburger span {
+    display: block;
+    height: 3px;
+    width: 25px;
+    background: black;
+    margin: 5px 0;
+  }
 
+  #mobile-nav.active {
+    display: block;
+    width: 100%;
+    background-color: rgb(245, 96, 96);
+    z-index: 999;
+  }
+  #mobile-nav ul {
+    margin: 1em 0;
+    padding: 0 10%;
+    list-style-type: none;
+  }
+  #mobile-nav li {
+    font-size: 18px;
+    font-weight: 900;
+    padding: 1em 0;
+    border-bottom: 2px solid aliceblue;
+  }
+  #mobile-nav a {
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
   /* main */
   main {
     padding: 0.5em 15px;
