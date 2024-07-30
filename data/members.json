@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Saori (Sally) Kojima",
+    "hometown": "Saitama",
+    "year": "Senior",
+    "major": "Information Technology",
+    "roll": "President",
+    "email": "skojima@atu.edu"
+  },
+  {
+    "name": "Hiromi Honda",
+    "hometown": "Fukushima",
+    "year": "Senior",
+    "major": "Computer Science",
+    "roll": "Vice President",
+    "email": "hhonda@atu.edu"
+  },
+  {
+    "name": "Genya Ohama",
+    "hometown": "Tokyo",
+    "year": "Senior",
+    "major": "Mechanical Engineering",
+    "roll": "N/A",
+    "email": "gohama@atu.edu"
+  },
+  {
+    "name": "Naoto Iwata",
+    "hometown": "Aichi",
+    "year": "Senior",
+    "major": "Mechanical Engineering",
+    "roll": "N/A",
+    "email": "niwata@atu.edu"
+  }
+]
