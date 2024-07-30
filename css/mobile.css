@@ -2,6 +2,7 @@
   /* CSS rules for mobile devices */
   /* header */
   header {
+    display: block;
     padding: 0.5em 0;
     text-align: center;
   }
@@ -30,19 +31,17 @@
     z-index: 999;
   }
   #mobile-nav ul {
+    gap: 0;
+    display: block;
     margin: 1em 0;
     padding: 0 10%;
     list-style-type: none;
   }
   #mobile-nav li {
+    margin: 0;
     font-size: 18px;
-    font-weight: 900;
     padding: 1em 0;
     border-bottom: 2px solid aliceblue;
-  }
-  #mobile-nav a {
-    color: aliceblue;
-    text-decoration: none;
   }
   
   /* main */
