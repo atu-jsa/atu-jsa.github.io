@@ -1,7 +1,3 @@
----
-
----
-
 # Website for Japanese Student Association at ATU
 
 [github.io](atu-jsa.github.io) (atu-jsa.github.io)
