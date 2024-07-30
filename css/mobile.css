@@ -4,7 +4,6 @@
   header {
     display: block;
     padding: 0.5em 0;
-    text-align: center;
   }
   #hamburger {
     position: absolute;
@@ -47,6 +46,11 @@
   /* main */
   main {
     padding: 0.5em 15px;
+  }
+  .slideshow img {
+    width: 70vw; /* Each image takes up the full viewport width */
+    height: auto;
+    display: block;
   }
 
   /* footer */

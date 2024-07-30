@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.centered {
+  text-align: center;
+}
 
 /* body */
 body {
@@ -35,14 +38,34 @@ header a {
 main {
   padding: 0 10%;
   background-color: aliceblue;
+  min-height: 75vh;
+}
+
+/* slideshow in home page */
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.slideshow {
+  display: flex;
+  width: fit-content; /* Will be set by JavaScript */
+}
+.slide {
+  flex: 0 0 auto; /* Prevents flexbox from shrinking or growing the slide */
+}
+.slideshow img {
+  width: 15vw; /* Each image takes up the full viewport width */
+  height: auto;
+  display: block;
 }
 
 /* footer */
 footer {
   padding: 0.1em 0;
-  margin: 1em 0;
+  margin: 1.2em 0;
   background-color: rgb(245, 96, 96);
-  text-align: center;
   color: aliceblue;
   font-size: 16px;
 }

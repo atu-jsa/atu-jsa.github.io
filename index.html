@@ -3,6 +3,7 @@
  -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,9 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/mobile.css">
 </head>
+
 <body>
-  <header>
+  <header class="centered">
     <!-- LOGO -->
     <a href="index.html"><img src="images/jsa_logo.png" alt="JSA" width="60"></a>
 
@@ -30,20 +32,47 @@
     </nav>
   </header>
 
-  <main>
-    
+  <main style="padding: 0;">
+    <!-- slideshow -->
+    <div class="slideshow-container">
+      <div class="slideshow" id="images">
+        <div class="slide"><img src="slide-show/s0.jpg" alt=""></div>
+        <div class="slide"><img src="slide-show/s1.jpg" alt=""></div>
+        <div class="slide"><img src="slide-show/s2.jpg" alt=""></div>
+        <div class="slide"><img src="slide-show/s3.jpg" alt=""></div>
+        <div class="slide"><img src="slide-show/s4.jpg" alt=""></div>
+        <div class="slide"><img src="slide-show/s5.jpg" alt=""></div>
+        <div class="slide"><img src="slide-show/s6.jpg" alt=""></div>
+        <div class="slide"><img src="slide-show/s7.jpg" alt=""></div>
+        <div class="slide"><img src="slide-show/s8.jpg" alt=""></div>
+        <div class="slide"><img src="slide-show/s9.jpg" alt=""></div>
+      </div>
+    </div>
+    <section class="centered">
+      <h1>Welcome to JSA at ATU</h1>
+    </section>
+
+    <section class="centered">
+      <h2>About Us</h2>
+    </section>
+
+    <section class="centered">
+      <h2>Currency JPY/USD</h2>
+      <p id="currency"></p>
+    </section>
   </main>
 
-  <footer>
-    <p><a href="#">Agreements of Participation Terms</a></p>
+  <footer class="centered">
     <div id="lang">
       <a href="index.html">English</a>
       &nbsp;/&nbsp;
-      <a href="ja/index.html">日本語</a>
+      <a href="ja/">日本語</a>
     </div>
+    <p><a href="apt/">Agreements of Participation Terms</a></p>
     <p>&copy; 2024 Japanese Student Association at <a href="https://www.atu.edu" target="_blank">ATU</a>.<br>All rights
       reserved.</p>
   </footer>
   <script src="js/main.js"></script>
 </body>
+
 </html>
